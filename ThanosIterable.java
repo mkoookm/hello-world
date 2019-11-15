@@ -6,5 +6,6 @@ public class ThanosIterable<T> implements Iterable<List<T>>{
   }
   public Iterator<List<T>> iterator(){
     return new ThanosIterator<T>(list);
+
   }
 }
